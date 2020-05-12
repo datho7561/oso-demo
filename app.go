@@ -10,7 +10,7 @@ import (
 func handler(w http.ResponseWriter, r *http.Request) {
 	name, _ := os.Hostname()
 
-	fmt.Fprintf(w, "Hello there peoples! I am %s", name)
+	fmt.Fprintf(w, "Hello there folks! I am %s", name)
 }
 
 func main() {
